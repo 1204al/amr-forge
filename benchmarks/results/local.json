@@ -1,0 +1,48 @@
+{
+  "source": "local",
+  "scenario": "warehouse-under-pressure",
+  "results": [
+    {
+      "policy": "Dynamic A* + reservations",
+      "seconds": 50,
+      "successRate": 1,
+      "distance": 57.97456654632899,
+      "delivered": 2,
+      "stops": 1,
+      "replans": 2,
+      "collisions": 0,
+      "trafficWaits": 3,
+      "minClearance": 0.1815774753622355,
+      "throughput": 2.4,
+      "completedAt": 42.43333333333333
+    },
+    {
+      "policy": "Static A* + reservations",
+      "seconds": 50,
+      "successRate": 0.5,
+      "distance": 25.407777434719133,
+      "delivered": 1,
+      "stops": 1,
+      "replans": 0,
+      "collisions": 0,
+      "trafficWaits": 0,
+      "minClearance": 0.45,
+      "throughput": 1.2,
+      "completedAt": null
+    },
+    {
+      "policy": "Dynamic A*",
+      "seconds": 50,
+      "successRate": 0,
+      "distance": 22.090990278530754,
+      "delivered": 0,
+      "stops": 1,
+      "replans": 1,
+      "collisions": 2,
+      "trafficWaits": 0,
+      "minClearance": 0,
+      "throughput": 0,
+      "completedAt": null
+    }
+  ]
+}

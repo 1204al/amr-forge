@@ -1,0 +1,4 @@
+policy,seconds,successRate,distance,delivered,stops,replans,collisions,trafficWaits,minClearance,throughput,completedAt
+"Dynamic A* + reservations",50,1,57.97456654632899,2,1,2,0,3,0.1815774753622355,2.4,42.43333333333333
+"Static A* + reservations",50,0.5,25.407777434719133,1,1,0,0,0,0.45,1.2,""
+"Dynamic A*",50,0,22.090990278530754,0,1,1,2,0,0,0,""

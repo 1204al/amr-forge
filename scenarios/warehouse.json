@@ -1,0 +1,21 @@
+{
+  "id": "warehouse-under-pressure",
+  "bounds": {"x": 12, "y": 8},
+  "racks": {
+    "columns": [-7.35, 0, 7.35],
+    "rows": [-4.55, -0.9, 3.65],
+    "width": 5.05,
+    "depth": 1.7
+  },
+  "destinations": [
+    {"id": "D04", "label": "Dock 04", "point": {"x": 10.55, "y": 1.38}},
+    {"id": "B07", "label": "Staging B", "point": {"x": -10.45, "y": -2.65}},
+    {"id": "P02", "label": "Picking 02", "point": {"x": -10.45, "y": 5.65}},
+    {"id": "C01", "label": "Charge Bay", "point": {"x": 10.5, "y": -6.6}}
+  ],
+  "robots": [
+    {"id": "AMR-01", "name": "Atlas", "color": "#6de8ff", "pose": {"x": -9.9, "y": 1.38, "heading": 0}, "destination": "D04", "priority": 2, "job": "DLV-1042"},
+    {"id": "AMR-02", "name": "Vega", "color": "#ffbd75", "pose": {"x": 10.45, "y": -2.65, "heading": 3.141592653589793}, "destination": "B07", "priority": 1, "job": "DLV-1043"}
+  ],
+  "forklift": {"id": "forklift", "kind": "forklift", "x": 0.15, "y": 1.38, "w": 2, "h": 1.87}
+}
